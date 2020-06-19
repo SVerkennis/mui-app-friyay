@@ -18,7 +18,7 @@ export const tileData = [
         cols: 1,
     },
     {
-        img: 'bluarghs',
+        img: 'https://png.pngtree.com/element_our/png_detail/20181229/asia-map-png_299946.jpg',
         title: 'thailand',
         author: 'saVe',
         cols: 1,

@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
         overflow: 'hidden',
         backgroundColor: theme.palette.background.paper,
         marginTop: theme.spacing(10),
-        marginLeft: theme.spacing(-25)
+        marginLeft: theme.spacing(10)
     },
     gridList: {
         width: 500,
