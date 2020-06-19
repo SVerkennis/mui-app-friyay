@@ -1,4 +1,5 @@
 Friyaay Exercise, React and Material UI :tada:
+
 Let's design and code a simple single-page application with Material UI and feed it some data either from an API (or if you get really far, your own backend). The goal of this exercise is to learn React basics and how to implement a UI framework such as Material UI. Both of these systems have their own rules and principles and the aim is to make your app work with them.
 Good luck, happy hacking, ask questions, take breaks
 Make a plan, see what components might be useful, don't go too far:
@@ -6,6 +7,7 @@ scribble, draw, brainstorm
 plan your site so you have some steps to follow
 got a back-end that you want to connect? Plan you front-end accordingly ;)
 read the documentation, step by step
+
 This is a good example for a simple website using MUI
 You can check out the components sourcecode here
 Setup a new project with CRA (Create React App), remove starter code and install dependencies:

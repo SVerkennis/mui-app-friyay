@@ -9,9 +9,9 @@ export default function Header() {
         title: 'TRAVEL',
         description:
             "is the only thing you buy that makes you richer",
-        image: 'https://cdn.pixabay.com/photo/2019/01/27/22/32/mountains-3959204_960_720.jpg',
+        image: 'https://cdn.pixabay.com/photo/2016/11/22/19/25/adult-1850181_960_720.jpg',
         imgText: 'main image description',
-        // linkText: 'Continue reading…',
+        // linkText: 'travel blog',
     };
 
 
