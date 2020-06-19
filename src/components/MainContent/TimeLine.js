@@ -7,12 +7,15 @@ import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import "./TimeLine.css"
 
+import yellow from '@material-ui/core/colors/yellow';
+const primary = yellow[800];
+
 export default function RightAlignedTimeline() {
     return (
         <Timeline align="right" className={"timeline"}>
             <TimelineItem>
                 <TimelineSeparator>
-                    <TimelineDot variant="outlined" color="primary"/>
+                    <TimelineDot variant="default" color="secondary"/>
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>adventure</TimelineContent>
@@ -33,14 +36,14 @@ export default function RightAlignedTimeline() {
             </TimelineItem>
             <TimelineItem>
                 <TimelineSeparator>
-                    <TimelineDot variant="outlined" color="primary"/>
+                    <TimelineDot variant="default" color="primary"/>
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>eat</TimelineContent>
             </TimelineItem>
             <TimelineItem>
                 <TimelineSeparator>
-                    <TimelineDot variant="outlined" color="primary"/>
+                    <TimelineDot variant="default" color="primary"/>
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>experience</TimelineContent>
