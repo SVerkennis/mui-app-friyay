@@ -1,68 +1,31 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Friyaay Exercise, React and Material UI :tada:
+Let's design and code a simple single-page application with Material UI and feed it some data either from an API (or if you get really far, your own backend). The goal of this exercise is to learn React basics and how to implement a UI framework such as Material UI. Both of these systems have their own rules and principles and the aim is to make your app work with them.
+Good luck, happy hacking, ask questions, take breaks
+Make a plan, see what components might be useful, don't go too far:
+scribble, draw, brainstorm
+plan your site so you have some steps to follow
+got a back-end that you want to connect? Plan you front-end accordingly ;)
+read the documentation, step by step
+This is a good example for a simple website using MUI
+You can check out the components sourcecode here
+Setup a new project with CRA (Create React App), remove starter code and install dependencies:
+npx create-react-app give-it-a-good-name
+ open the project folder
+create a GitHub repository
+push your project to GitHub (don't forget to add .idea & *.iml to the .gitignore )
+after switching to a new branch, remove starter code and
+install Material UI -> link to docs
+push, merge, pull
+if you feel like you are stuck, check out the commit history of this PR
+Please use git and GitHub, it's an important skill and can help with structuring your approach. :beten:
+Write your website's foundation
+The next thing you should do is implement a basic structure for the site:
+For example the header and an element that aligns your main content
+The header could be an Appbar with nothing but a title in it
+Also a good opportunity to implement a Grid for your main content
+Before you connect a backend your frontend should either be ready to display the data or at least log it to the console
+Next steps
+Add components
+Add React Router :kopfüber:
+Change all the colors (MUI Palette)
+Add Content, write/connect a back-end
