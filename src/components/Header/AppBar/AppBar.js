@@ -4,6 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
+import {Link} from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -24,11 +25,10 @@ export default function ButtonAppBar() {
         <div className={classes.root}>
             <AppBar position="sticky">
                 <Toolbar className={"tools"}>
-                    <Button color="inherit">Home</Button>
-                    <Button color="inherit">Asia</Button>
-                    <Button color="inherit">America</Button>
-                    <Button color="inherit">Africa</Button>
-                    <Button color="inherit">Australia</Button>
+                    <Link to="/asia" className={"linkcolor"}><Button color="inherit">Asia</Button></Link>
+                    <Link to="/america" className={"linkcolor"}><Button color="inherit">SouthAmerica</Button></Link>
+                    <Link to="/africa" className={"linkcolor"}><Button color="inherit">Africa</Button></Link>
+                    <Link to="/australia" className={"linkcolor"}><Button color="inherit">Australia</Button></Link>
                 </Toolbar>
             </AppBar>
         </div>

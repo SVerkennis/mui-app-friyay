@@ -1,5 +1,11 @@
 .tools {
     justify-content: space-around;
     background-color: #689f38;
+    color: white;
 ;
+}
+
+.linkcolor {
+    color: white;
+    text-decoration: none;
 }
